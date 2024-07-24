@@ -1,0 +1,54 @@
+#search-area {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //justify-content: center;
+  height: 100vh; /* Full height */
+  text-align: center;
+  background: #181818;
+  font-weight: 500;
+}
+#input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#city {
+  background: transparent;
+  border: solid 0px;
+  border-bottom: solid 1px;
+  border-color: #9b03c9;
+  color: white;
+  padding: 10px;
+  font-size: 1rem;
+  flex: 1; /* Faz o input crescer para preencher o espaço */
+}
+
+#searchBtn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background: transparent;
+  color: white;
+  border: solid 1px #9b03c9;
+  cursor: pointer;
+}
+#searchBtn:hover{
+  background: #9b03c9;
+}
+#weather-result {
+  margin-top: 20px;
+  font-size: 1.2rem;
+}
+.res{
+  color: white;
+  width: 326px;
+
+  text-align: justify;
+
+  p{
+    padding-left: 10px;
+  }
+}
+
